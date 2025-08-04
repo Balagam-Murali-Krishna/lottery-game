@@ -1,0 +1,40 @@
+.heading{
+    text-align: center;
+}
+.img{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+button{
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.box{
+    background-color: rgb(227, 227, 103);
+    height: 30px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+.lottery-sheet-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.winningContainer{
+    background-color: green;
+    color: white;
+}
+.excitmentbox{
+    border: 1px solid green;
+    background-color: green;
+
+}
